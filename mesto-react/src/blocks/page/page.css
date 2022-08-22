@@ -1,0 +1,41 @@
+.page {
+    margin: 0 auto;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    /* margin: 0; */
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+@media screen and (min-width: 1280px) {
+    .page {
+       padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .page {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .page {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+}
+@media all and (min-width: 320px) and (max-width: 767px) {
+    .page {
+        margin: 0;
+    }
+}
