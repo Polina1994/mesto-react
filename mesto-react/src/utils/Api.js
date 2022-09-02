@@ -4,14 +4,12 @@ class Api {
     this._headers = headers;
   }
 
-
   getUserData() {
     const requestUrl = this._baseUrl + "/users/me";
     return fetch(requestUrl, {
       headers: this._headers,
     }).then(this._getResponseData);
   }
-
 
   getCards() {
     const requestUrl = this._baseUrl + "/cards";
@@ -20,15 +18,15 @@ class Api {
     }).then(this._getResponseData);
   }
 
-  setUserData({name, about}) {
+  setUserData({ name, about }) {
     const requestUrl = this._baseUrl + "/users/me";
     return fetch(requestUrl, {
       method: "PATCH",
       headers: this._headers,
       body: JSON.stringify({
         name,
-        about
-      })
+        about,
+      }),
     }).then(this._getResponseData);
   }
 
@@ -60,13 +58,13 @@ class Api {
     }).then(this._getResponseData);
   }
 
-  setNewAvatar({avatar}) {
+  setNewAvatar({ avatar }) {
     const requestUrl = this._baseUrl + `/users/me/avatar`;
     return fetch(requestUrl, {
       method: "PATCH",
       headers: this._headers,
       body: JSON.stringify({
-        avatar
+        avatar,
       }),
     }).then(this._getResponseData);
   }
