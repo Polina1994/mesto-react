@@ -1,43 +1,43 @@
-# Проект Mesto-React
+# Project Mesto-React
 
-* Данный проект является итоговой работой за 10-11 спринт на Яндекс.Практикуме.
+* This project is the final work for 10-11 sprints at Yandex.Practicum.
 
-## О чём проект?
+## What is the project about?
 
-Данное вэб-приложение позволяет фотографам делиться своими работами.
+This web application allows photographers to share their work.
 
-### В нем предтавлены: 
+### It contains:
 
-* Профиль пользователя и данные о нём;
-* Фото-карточки с возможностью добавления и оценивания;
+* User profile and data about it;
+* Photo cards with the ability to add and evaluate;
 
-# Функциональность:
+# Functionality:
 
-* Редактирование профиля (имя и место работы);
-* Добавление своих фото-карточек;
-* Удаление своих фото-карточек;
-* Возможность поставить лайк понравившейся публикации;
-* Просмотр фотографии на полный экран;
-* Закрытие попапа по оверлею (фону) и по нажатию на Escape;
-* Реализована валидация всех форм;
-* Все данные хранятся на сервере, использованы технологии API
+* Editing the profile (name and place of work);
+* Adding your photo cards;
+* Deleting your photo cards;
+* Ability to like the publication you like;
+* View photos in full screen;
+* Closing popup by overlay (background) and pressing Escape;
+* Implemented validation of all forms;
+* All data is stored on the server, API technologies are used
 
-# Используемые технологии:
+# Used technologies:
 
-* Данный проект является одностраничным сайтом, написанный на языке разметки HTML5;
-* Стили и картинки в самостоятельных папках и разбиты по блокам. Создана файловая структура по БЭМ (Nested);
-* Для создания сеток используется flex и grid;
-* Реализованны переходы состояний ссылок и попапов (плавное затенение);
-* Сайт адаптивен. Корректно отображается на самых популярных разрешениях экрана;
-* Реализована валидация всех форм на сайте средствами JS;
-* Код написан по парадигме ООП;
-* Использована библиотека React;
-* Проект раелизован по макету из Figma;
-* Ссылка на реализованный [проект]().
+* This project is a one-page site written in HTML5 markup language;
+* Styles and pictures in separate folders and divided into blocks. BEM file structure created (Nested);
+* To create grids, flex and grid are used;
+* Implemented state transitions of links and popups (smooth shading);
+* The site is responsive. Displays correctly on the most popular screen resolutions;
+* Implemented validation of all forms on the site using JS;
+* The code is written according to the OOP paradigm;
+* Used library React;
+* The project was implemented according to the layout from Figma;
+* Link to the implemented [project]().
 
-# Установка и запуск:
+# Installation and launch:
 
-- npm i - установка зависимостей
-- npm run start - запуск сервера
-- npm run build - запуск сборки проекта
-- npm run deploy - публикация сборки на github pages
+- npm i - install dependencies
+- npm run start - server start
+- npm run build - launch project build
+- npm run deploy - publishing the build to github pages
