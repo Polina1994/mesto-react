@@ -33,7 +33,7 @@ This web application allows photographers to share their work.
 * The code is written according to the OOP paradigm;
 * Used library React;
 * The project was implemented according to the layout from Figma;
-* Link to the implemented [project]().
+
 
 # Installation and launch:
 
