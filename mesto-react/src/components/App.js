@@ -38,10 +38,10 @@ function App() {
   }, []);
 
   function handleCardLike(card) {
-    // Снова проверяем, есть ли уже лайк на этой карточке
+    // We check again if there is already a like on this card
     const isLiked = card.likes.some((i) => i._id === currentUser._id);
 
-    // Отправляем запрос в API и получаем обновлённые данные карточки
+    // We send a request to the API and get the updated card data
     api
       .likeCard(card._id, !isLiked)
       .then((newCard) => {
